@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Excluir Paciente</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Excluir paciente</h1>
+
+        <p>Informe o ID do paciente que deseja excluir.</p>
+
+        <form action="/pacientes/delete" method="POST">
+            <label>ID do paciente:</label>
+            <input type="number" name="id" required>
+
+            <button type="submit" class="danger-button">Excluir</button>
+        </form>
+
+        <a href="/pacientes" class="btn">Ver pacientes</a>
+        <a href="/" class="btn">Voltar</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Atualizar Paciente</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Atualizar paciente</h1>
+
+        <p>Informe o ID do paciente e os novos dados.</p>
+
+        <form action="/pacientes/update" method="POST">
+            <label>ID do paciente:</label>
+            <input type="number" name="id" required>
+
+            <label>Nome:</label>
+            <input type="text" name="nome" required>
+
+            <label>CPF:</label>
+            <input type="text" name="cpf" required>
+
+            <label>Data de nascimento:</label>
+            <input type="date" name="data_nascimento" required>
+
+            <label>Telefone:</label>
+            <input type="text" name="telefone">
+
+            <label>Endereço:</label>
+            <input type="text" name="endereco">
+
+            <label>Convênio:</label>
+            <input type="text" name="convenio">
+
+            <label>Diagnóstico:</label>
+            <input type="text" name="diagnostico">
+
+            <button type="submit">Atualizar</button>
+        </form>
+
+        <a href="/pacientes" class="btn">Ver pacientes</a>
+        <a href="/" class="btn">Voltar</a>
+    </div>
+</body>
+</html>
