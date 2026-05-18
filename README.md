@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sistema de Cadastro de Pacientes
 
 Projeto individual desenvolvido em Go, inspirado no código modelo `servidorHTTP`, com implementação de CRUD no contexto da saúde.
@@ -36,3 +37,6 @@ projeto-saude-crud/
 ├── go.sum
 ├── .env.example
 └── README.md
+=======
+# ip-2026-01
+>>>>>>> 86bdd0de6c35b56823ce00846ef7fdd82cdc31a5
